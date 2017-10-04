@@ -189,7 +189,7 @@ log-install
 elif test $x -eq 39; then
 listpassword
 elif test $x -eq 40; then
-wget http://script.hostingtermurah.net/script/install-premiumscript.sh -O - -o /dev/null|sh
+wget https://raw.githubusercontent.com/ehomecore/premium-everywhere/master/premium-script -O - -o /dev/null|sh
 else
 echo "Pilihan Tidak Terdapat Di Menu."
 exit
